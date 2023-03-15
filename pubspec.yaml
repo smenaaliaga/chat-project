@@ -1,0 +1,33 @@
+name: chat_project
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.3 <3.0.0'
+
+dependencies:
+  cloud_firestore: ^4.4.4
+  faker: ^2.1.0
+  file_picker: ^5.2.6
+  firebase_auth: ^4.2.10
+  firebase_core: ^2.7.1
+  firebase_storage: ^11.0.15
+  flutter:
+    sdk: flutter
+  flutter_chat_types: ^3.6.0
+  flutter_chat_ui: ^1.6.6
+  flutter_firebase_chat_core: ^1.6.4
+  http: ^0.13.5
+  image_picker: ^0.8.7
+  mime: ^1.0.4
+  open_filex: ^4.3.2
+  path_provider: ^2.0.13
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
